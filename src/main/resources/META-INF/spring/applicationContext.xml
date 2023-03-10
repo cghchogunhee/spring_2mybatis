@@ -37,6 +37,7 @@
 		<property name="mapperLocations">  <!-- 이 프로퍼티의 value는 타입이 List입니다.  -->
 			<list> <!-- ArrayList 와 같은 컬렉션이 프로퍼티 값으로 참조됩니다. -->
 				<value>classpath:META-INF/mybatis/community.xml</value>
+				<value>classpath:META-INF/mybatis/newMember.xml</value>
 			</list>
 		</property>
 		<property name="configLocation" 
@@ -50,7 +51,7 @@
 	<!-- 4. mybatis-spring는 member.xml(매퍼파일)과 연결되는 인터페이스를 사용합니다.
 			그 매퍼 인터페이스의 패키지를 알려줘야 합니다. -->	
 	
-	<!-- <mybatis-spring:scan base-package="org.iclass.dao"/> -->
+	<mybatis-spring:scan base-package="org.iclass.dao"/>
 	
 	
 </beans>

@@ -8,7 +8,7 @@ https://mybatis.org/mybatis-3/ko/getting-started.html 참고
 <configuration>  <!-- db 설정 -->
  	<typeAliases>
  		<typeAlias type="org.iclass.vo.Community" alias="Community"/>
+ 		<typeAlias type="org.iclass.vo.NewMember" alias="NewMember"/>
  	</typeAliases>
 </configuration>
-
 

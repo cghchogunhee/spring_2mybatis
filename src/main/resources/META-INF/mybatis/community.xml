@@ -56,12 +56,12 @@
 		WHERE 
 			idx = #{idx}
  	</update>
- 	<!-- <select id="commentsCount" resultType="long" parameterType="long">
+ 	<select id="commentsCount" resultType="long" parameterType="long">
  		SELECT count(*) 
  		FROM communityComments 
  		WHERE 
  			mref=#{mref}
- 	</select> -->
+ 	</select>
  	
  	<!-- 메인글의 댓글 갯수 업데이트  -->
  	<!-- <update id="setCommentCount" parameterType="long">
